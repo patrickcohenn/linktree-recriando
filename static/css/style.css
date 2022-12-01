@@ -5,13 +5,24 @@
     color: rgb(255, 255, 255);
 }
 
-body{
-    width: 98%;
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+.background{
+    background: linear-gradient(90deg, #063d52, #032546);
+    background-size: 400% 400%;
+    animation: anim 5s infinite ease-in-out;
 }
 
+@keyframes anim{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
 .no-link{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -42,6 +53,7 @@ body{
 }
 
 
+
 .text-link{
     position: relative;
 }
@@ -61,8 +73,8 @@ body{
     border-radius: 50px;
     padding: 20px;
     background: #283048;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #00bbff, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #026488, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .group-btn{
