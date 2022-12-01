@@ -13,5 +13,6 @@ MarkupSafe==2.1.1
 phyton==1.0.0a1
 platformdirs==2.5.2
 python-dotenv==0.21.0
+validate-docbr==1.10.0
 virtualenv==20.16.6
 Werkzeug==2.2.2
